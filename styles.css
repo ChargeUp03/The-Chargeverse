@@ -10,7 +10,7 @@
     --hero-text: #ffffff;
     --panel-bg: rgba(255, 255, 255, 0.95);
     --panel-text: #333333;
-    --btn-bg: #eeeeee; /* Darkened slightly from original white/f8 */
+    --btn-bg: #eeeeee; /* Darkened slightly from original white */
     --btn-hover: #fafafa;
     --btn-border: #cccccc;
     --icon-color: #ffffff;
@@ -41,13 +41,13 @@ body {
     font-family: var(--font-main);
     color: var(--text-color);
     min-height: 100vh;
-    /* Diagonal Striped Background: Top-left to bottom-right (135deg), smaller scale */
+    /* Diagonal Striped Background: Angle set to 45deg creates \ stripes, sizes reverted */
     background: repeating-linear-gradient(
-        135deg,
+        45deg,
         var(--bg-color-1),
-        var(--bg-color-1) 10px,
-        var(--bg-color-2) 10px,
-        var(--bg-color-2) 20px
+        var(--bg-color-1) 20px,
+        var(--bg-color-2) 20px,
+        var(--bg-color-2) 40px
     );
     transition: background 0.3s ease, color 0.3s ease;
 }
@@ -160,9 +160,8 @@ body {
 .button-grid {
     display: grid;
     grid-template-columns: 1fr; /* 1 wide on mobile */
-    gap: 1.5rem; /* Increased gap slightly since the background box is gone */
-    padding: 1rem 0; /* Adjusted padding */
-    /* Background, border-radius, and box-shadow removed */
+    gap: 1.5rem; 
+    padding: 1rem 0; 
 }
 
 .nav-button {
@@ -175,7 +174,7 @@ body {
     border-radius: 8px;
     font-weight: 600;
     font-size: 1.1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Added subtle shadow directly to buttons to help them pop against the stripes */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
     transition: transform 0.1s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
