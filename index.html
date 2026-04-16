@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chargeverse - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo-container">
+            <span class="logo-placeholder">Logo Here</span>
+        </div>
+
+        <div class="controls">
+            <div class="search-container" id="searchContainer">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search stories...">
+                <button class="icon-btn" id="searchBtn" aria-label="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+
+            <button class="icon-btn" id="themeBtn" aria-label="Toggle Dark/Light Mode">
+                <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>The Chargeverse</h1>
+            <p>Chargeverse - WIP</p>
+        </section>
+
+        <nav class="button-grid">
+            <a href="#" class="nav-button">Pre-Modern Stories</a>
+            <a href="#" class="nav-button">Modern Stories</a>
+            <a href="#" class="nav-button">Future Stories</a>
+            <a href="#" class="nav-button">Additional Documents</a>
+            <a href="#" class="nav-button">Archived and Other Stories</a>
+            <a href="#" class="nav-button">About</a>
+        </nav>
+    </main>
+
+    <script>
+        // --- Search Bar Logic ---
+        const searchBtn = document.getElementById('searchBtn');
+        const searchContainer = document.getElementById('searchContainer');
+        const searchInput = document.getElementById('searchInput');
+
+        searchBtn.addEventListener('click', () => {
+            searchContainer.classList.toggle('expanded');
+            if (searchContainer.classList.contains('expanded')) {
+                searchInput.focus();
+            } else {
+                // Add search logic here 
+            }
+        });
+
+        // --- Theme Toggle Logic ---
+        const themeBtn = document.getElementById('themeBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        // Check system preference
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        // Function to set theme
+        function setTheme(isDark) {
+            if (isDark) {
+                document.body.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>'; // Sun icon
+            } else {
+                document.body.setAttribute('data-theme', 'light');
+                themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>'; // Moon icon
+            }
+        }
+
+        // Initialize based on saved preference or system default
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark") {
+            setTheme(true);
+        } else if (currentTheme == "light") {
+            setTheme(false);
+        } else {
+            setTheme(prefersDarkScheme.matches);
+        }
+
+        // Toggle on button click
+        themeBtn.addEventListener("click", () => {
+            let isDark = document.body.getAttribute('data-theme') === 'dark';
+            setTheme(!isDark);
+            localStorage.setItem("theme", !isDark ? "dark" : "light");
+        });
+    </script>
+</body>
+</html>
