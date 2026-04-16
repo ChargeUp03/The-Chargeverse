@@ -1,0 +1,194 @@
+/* --- CSS Variables & Theme setup --- */
+:root {
+    /* Fonts: Clean system sans-serif fallback */
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    
+    /* Default Light Theme (Mario Red Stripe) */
+    --bg-color-1: #E52521; /* Mario Red */
+    --bg-color-2: #cc1b18; /* Slightly darker red for stripe */
+    --text-color: #ffffff;
+    --hero-text: #ffffff;
+    --panel-bg: rgba(255, 255, 255, 0.95);
+    --panel-text: #333333;
+    --btn-bg: #f8f8f8;
+    --btn-hover: #ffffff;
+    --btn-border: #dcdcdc;
+    --icon-color: #ffffff;
+}
+
+[data-theme="dark"] {
+    /* Dark Theme (Black & Dark Grey Stripe) */
+    --bg-color-1: #0a0a0a; /* Black */
+    --bg-color-2: #1a1a1a; /* Dark Grey */
+    --text-color: #e0e0e0;
+    --hero-text: #e0e0e0;
+    --panel-bg: rgba(30, 30, 30, 0.95);
+    --panel-text: #e0e0e0;
+    --btn-bg: #2a2a2a;
+    --btn-hover: #3a3a3a;
+    --btn-border: #444444;
+    --icon-color: #e0e0e0;
+}
+
+/* --- Base Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    min-height: 100vh;
+    /* Subtle Diagonal Striped Background */
+    background: repeating-linear-gradient(
+        -45deg,
+        var(--bg-color-1),
+        var(--bg-color-1) 20px,
+        var(--bg-color-2) 20px,
+        var(--bg-color-2) 40px
+    );
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* --- Top Bar & Controls --- */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo-placeholder {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--hero-text);
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--icon-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.icon-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* --- Expandable Search --- */
+.search-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 2px;
+    transition: all 0.3s ease;
+    width: 36px; /* Initially only wide enough for the button */
+    overflow: hidden;
+}
+
+.search-container.expanded {
+    width: 250px;
+    background: var(--panel-bg);
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--panel-text);
+    padding: 0;
+    width: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-family: var(--font-main);
+}
+
+.search-container.expanded .search-input {
+    width: 100%;
+    padding: 0 10px 0 15px;
+    opacity: 1;
+}
+
+.search-container.expanded .icon-btn {
+    color: var(--panel-text);
+}
+
+.search-container.expanded .icon-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* --- Main Layout --- */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero {
+    margin-bottom: 3rem;
+    color: var(--hero-text);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* --- Navigation Button Grid --- */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 wide on mobile */
+    gap: 1rem;
+    background: var(--panel-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.nav-button {
+    display: block;
+    text-decoration: none;
+    color: var(--panel-text);
+    background: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    padding: 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: transform 0.1s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-button:hover {
+    background: var(--btn-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Desktop layout: 2 wide */
+@media (min-width: 600px) {
+    .button-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
