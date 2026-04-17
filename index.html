@@ -16,12 +16,6 @@
     <header class="top-bar">
     <img src="assets/The Chargeverse Logo.png" alt="The Chargeverse" width="150" height="auto">
 <div class="controls">
-            <div class="search-container" id="searchContainer">
-                <input type="text" id="searchInput" class="search-input" placeholder="Search stories...">
-                <button class="icon-btn" id="searchBtn" aria-label="Search">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                </button>
-            </div>
 
             <button class="icon-btn" id="themeBtn" aria-label="Toggle Dark/Light Mode">
                 <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -48,19 +42,6 @@
     </main>
 
     <script>
-        // --- Search Bar Logic ---
-        const searchBtn = document.getElementById('searchBtn');
-        const searchContainer = document.getElementById('searchContainer');
-        const searchInput = document.getElementById('searchInput');
-
-        searchBtn.addEventListener('click', () => {
-            searchContainer.classList.toggle('expanded');
-            if (searchContainer.classList.contains('expanded')) {
-                searchInput.focus();
-            } else {
-                // Add search logic here 
-            }
-        });
 
         // --- Theme Toggle Logic ---
         const themeBtn = document.getElementById('themeBtn');
