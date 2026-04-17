@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Chargeverse">
+    <meta name="theme-color" content="#cc1b18" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="assets/site.webmanifest">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of the Flower - The Chargeverse</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="top-bar">
+  <a href="https://chargeup03.github.io/The-Chargeverse/">
+    <img src="../assets/The Chargeverse Logo.png" alt="To homepage" width="150" height="auto">
+  </a>
+<div class="controls">
+  
+            <button class="icon-btn" id="themeBtn" aria-label="Toggle Dark/Light Mode">
+                <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>The Story of the Flowers</h1>
+            <p>*The Story of the Flowers* shows how the Fire Flower and Ice Flower came to be.</p>
+
+            <p>
+*One day, long ago, before Mario and Luigi, a comet from space crashed on Earth. This comet was flaming, and it landed in a field with a bunch of flowers. Yoshis from a nearby village saw the comet in the sky. The chief gathered everyone at the big tree in the town square* 
+Chief Yoshi: I need the four bravest Yoshi’s here. Any volunteers? 
+*But no one raised their hand. Then one hand raised up, with three others following it. The four Yoshies then set off to find the comet*
+
+*They traveled through forests and mountains and were led by the non-stop smoke from the comet* 
+Red Yoshi: Look, the smoke is getting closer!
+Yellow Yoshi: That means we’re almost there! 
+*A few hours later, they had finally arrived at the comet. It landed in a field full of flowers.*
+Blue Yoshi: The flowers at the comet are different!
+Green Yoshi: Maybe we shouldn’t touch these until we know they’re safe…
+*Red Yoshi, ignoring the warning from Green Yoshi, touched the flower and visibly changed color*
+Red Yoshi: But look at this! I can shoot fire now! It is safe!
+Green Yoshi: Oh. Okay…let’s head back to the village and show the Chief
+
+*Just above Earth, two Lumas looked down. 
+Luma 1: Looks like they found the fire comet. Ready to send the other one?”
+Luma 2: Let’s do it.
+
+*While the Yoshies were traveling back to the village, another comet hit the mountains nearby. Blue Yoshi: Another comet? We should go check up there!
+Green Yoshi: Let’s go, then!
+*At the mountain, there were more flowers, but they were blue rather than red. 
+Green Yoshi: *to Blue Yoshi* So, what do these ones do?” said Green Yoshi to Blue Yoshi. “They do ice! I guess it makes sense since it’s colder up here
+Yellow Yoshi: Speaking of cold, let’s get out of here, because it’s freezing!
+
+*After the long journey, the Yoshis arrived back at the village, and went up to the chief hut. Chief Yoshi: These grant the user fire and ice powers?
+Green Yoshi: That’s right. 
+Chief Yoshi: We’ll call them…Fire and Ice Flowers.
+
+*Just over one hundred years later, the Yoshis have passed down the flowers through generations. One day, someone showed up to Yoshi town. 
+???: I, Bowser, King of the Koopas, demand that you to give me all Fire and Ice Flowers, or else, your town will be destroyed! GRAHAHAHA!
+*The Yoshies didn’t want their town to be destroyed, so they handed them over, all but one Fire Flower and one Ice Flower. Once he had left, a Yoshi had Mail Koopa deliver the Fire and Ice Flowers*
+
+Mail Koopa: Delivery for Mario
+Mario: *while opening the box* What’s this? 
+*In the box were two flowers and a note*
+Mario: ‘Yoshi Yoshi Yoshi…Yoshi…Yoshi?’
+Luigi: I think it just says ‘Yoshi’.
+Mario: So, what if I touch the top of it?
+Luigi: Look, the blue on your shirt! It’s white now! And your hat’s white too!
+Mario: You try the blue one!
+Luigi: Are you sure it’s safe, though
+Mario: It’ll be fine! *Luigi uses the Ice Flower* And look! You’ve got a light blue shirt and hat now!
+Luigi: Oh, that’s kinda cool, actually! *glances at the box* Wait, there’s another paper here too! ‘Yoshi Yoshi Yoshi?’. What do you think that means?
+Mario: Maybe they want us to go get something? *running outside* Hey! Wait! Where’d the letter come from?
+Mail Koopa: The Yoshi Village.
+Mario: Well, should we go and see what they want us to help with?
+Luigi: …Yeah. Let’s go!
+            </p>
+        </section>
+    </main>
+
+    <script>
+
+        // --- Theme Toggle Logic ---
+        const themeBtn = document.getElementById('themeBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        // Check system preference
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        // Function to set theme
+        function setTheme(isDark) {
+            if (isDark) {
+                document.body.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>'; // Sun icon
+            } else {
+                document.body.setAttribute('data-theme', 'light');
+                themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>'; // Moon icon
+            }
+        }
+
+        // Initialize based on saved preference or system default
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark") {
+            setTheme(true);
+        } else if (currentTheme == "light") {
+            setTheme(false);
+        } else {
+            setTheme(prefersDarkScheme.matches);
+        }
+
+        // Toggle on button click
+        themeBtn.addEventListener("click", () => {
+            let isDark = document.body.getAttribute('data-theme') === 'dark';
+            setTheme(!isDark);
+            localStorage.setItem("theme", !isDark ? "dark" : "light");
+        });
+    </script>
+</body>
+</html>
