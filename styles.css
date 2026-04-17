@@ -190,3 +190,7 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.story {
+  white-space: pre-line;
+}
