@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Chargeverse">
+    <meta name="theme-color" content="#cc1b18" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="assets/site.webmanifest">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario & Luigi Discover the Mushroom Kingdom - The Chargeverse</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <header class="top-bar">
+  <a href="https://chargeup03.github.io/The-Chargeverse/">
+    <img src="../../assets/The Chargeverse Logo.png" alt="To homepage" width="150" height="auto">
+  </a>
+<div class="controls">
+  
+            <button class="icon-btn" id="themeBtn" aria-label="Toggle Dark/Light Mode">
+                <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>The Story of the Flowers</h1>
+            <p>*The Story of the Flowers* shows how the Fire Flower and Ice Flower came to be.</p>
+
+            <div class="story">
+Part One
+*One day, Mario and Luigi are walking home from school. They’re actually younger in this one, around 14. We’re not in the Mushroom Kingdom, but in Brooklyn instead.*
+
+Mario: Hey, Luigi, remember that book that Mom used to read to us? Luigi?
+*Luigi is about a block behind, chasing his hat that flew off. It’s a particularly windy day today*
+Mario: Not again…
+
+Luigi: Why’s it so windy today?
+Mario: I don’t know. Anyways, remember that old book we have? Some mushroom land that you can get to by a big underground pipe?
+Luigi: Yeah, Mom read it to us all the time!
+Mario: You think it’s real? And not just a myth or whatever.
+Luigi: I don’t know, maybe? 
+
+*when they get home, Mario immediately goes upstairs, and a bit later Luigi comes up with a snack*
+Luigi: Hey Mar—what is happening in here?
+*almost the entire contents of the closet are all over their room*
+Mario: Aha! Here’s the book!
+Luigi: Why’d you take apart the closet? Wait, that’s the wrong word…my bed! Why’d you put all the stuff on my bed?
+Mario: It’s closer. But—
+Luigi: My 3DS!
+Mario: This book says that a couple hundred feet underground is a green pipe that takes you to the Mushroom Kingdom.
+Luigi: I missed this so much!
+Mario: Luigi, the book.
+Luigi: Oh, right.
+*they read the book a bit more, then Luigi goes downstairs while Mario looks up stuff on the computer in their room. Now, it’s almost dinner time, and Mario’s still doing research*
+Luigi: Mario, Mom said dinner’s about to be ready, so you should come downstairs.
+Mario: Okay, I was about to—
+*computer blue screens, with the error message ‘Get off of this and do something with your life’*
+Mario: Okay, okay. Aggressive…
+*they have dinner, and the bros head upstairs to get ready for bed*
+Mom: Boys, did you finish your homework?
+Luigi: Yes!
+Mario: Oop-
+Mom: Mario?
+Mario: Y-yeah…
+Luigi: *whisper* Mario, we have a test tomorrow!
+Mario: Didn’t Dad say we don’t really need math anyways?
+*after the bros get ready, they head to bed. Luigi almost instantly falls asleep (somehow) while Mario finalizes his plan in his head*
+Mario: *whisper* Hey, Luigi. Luigi!
+Luigi: What…
+Mario: You want to go try and find the pipe?
+Luigi: *slurring* Whatpipe…
+Mario: You know…the book one?
+Luigi: Idontknow…
+Mario: Ugh. *turns on flashlight right above Luigi*
+Luigi: What?!
+Mario: Let’s go find the pipe!
+*they sneakily get some supplies together and make sure the rest of the family is asleep before sneaking out. They’re now out on the streets*
+Luigi: Mario, I don’t know if this is a great idea…
+*an old car drives by really fast, followed by a police car*
+Mario: Umm…I think we’ll be fine. Help me lift this cover.
+Luigi: Those are really heavy though…
+
+*once they lift the manhole cover, they go into the sewers to find the pipe*
+Luigi: Bleh, it smells weird here…
+Mario: Look! A green pipe! *they run to it*
+Luigi: *reading off a nearby sign* 1-2. What does that mean? Mario?
+*Mario is gone*
+Luigi: M-Mario?! *Luigi goes into the pipe a little bit, and it starts to pull him in, eventually turning into full on flying*
+Luigi: AHH! MARIO! WHERE ARE YOU?!
+Mario: LUIGI! I’M RIGHT HERE!
+*they both exit the pipe in a mushroom forest. They bounce off of some mushrooms. Mario lands on the ground, while Luigi lands on a particularly bouncy mushroom that’s conveniently angled toward the city and isn’t a plot device at all. It flings Luigi into the city.
+Mario: LUIGI!
+Luigi: WAAAHAHAHAaaaaa…
+Mario: NO! 
+*Mario now must find his way through the mushroom forest and get to the city. Like in Brooklyn, it’s night here*
+
+Part 2
+*Mario starts to head toward the kingdom, and comes across some enemies—most of them are peaceful, until a giant sleeping Wiggler blocks his path*
+Mario: Hmm… 
+*The Wiggler is about triple Mario’s height, so it’s too tall to go over. He tries to go around it, but accidentally steps on one of its legs. It wakes up, looks at Mario, and falls back asleep*
+Mario: Whew…
+*Mario was able to get past the Wiggler, but he looks back to see that it turned from yellow to red, and it’s angry*
+Mario: AHH! 
+*Mario runs away and the Wiggler starts running too. He jumps and dives over rocks, and eventually the kingdom entrance gate comes into view. He tries to run faster, and right as the Wiggler is about to reach him, Mario makes it through the gate. The Wiggler is too big to get past the gate, so it gets its head stuck in it. The Toad guards at the top of the gate completely ignore Mario after he gets through, since they’re focused on the Wiggler, which now is yellow and has teary eyes. Mario goes off into the city to find Luigi*
+
+(Luigi’s point of view)
+*Luigi flies through the air, whizzes past some Para-Biddybuds, and conveniently lands in the pillow factory. He makes his way out of the factory and sees Mario being chased by the Wiggler on the hill. He starts running toward the gate, and eventually they meet up*
+Mario: Luigi!
+Luigi: Mario! Ow!
+Mario: What?
+Luigi: My arm kind of hurts…like to bend it. Luckily, I landed in the pillow factory over there (points with his good arm to the factory)
+Mario: Okay, good. I think if you can’t move your arm, that means it’s broken. Let’s go find a hospital or something.
+*They come up to a blue pipe, and they see the hospital on the top of the urban hill. The pipe has a big plus sign next to it*
+Mario: I think this is the hospital.
+Luigi: A-are you sure a pipe would be a good idea? They’re a bit rough…
+Mario: Yeah, let’s go up the stairs…
+
+*in the hospital*
+Receptionist Toad: Hi, how can I help you?
+Mario: My brother’s arm is broken, I think. Could you help us? We just came out of a pipe in the forest, we don’t even know where we are…
+Receptionist Toad: I’ll redirect you to our nurse, just head through that door.
+Mario: Thanks.
+Luigi: Owww…
+
+Doctor Toad: And there you go. How does it feel?
+Luigi: It feels a little better…
+Doctor: Good. Now, you two seem to be new here. How about this, go to this address. *hands Mario a card* This first one is the help center, the second is a hotel. Good luck, you two!
+Mario/Luigi: Thanks! 
+
+Luigi: I like this green cast—
+Police Toad: Intruders! State who you are!
+Mario: Mario!
+Luigi: Luigi…
+Police Toad: We are currently on alert after a crisis recently happened, so we have to put you in temporary custody. 
+Mario: Well, we just—
+Police Toad: Nope, no excuses. Hands behind your back.
+Luigi: I can’t.
+Police Toad: *sighs* Okay. *chains Luigi and himself together, and puts the bros in a cage on the back of a police go-kart*
+Mario: Go kart? This place is weird…
+Luigi: You’re concerned about that?! We’re about to be thrown in jail!
+Police Toad: Hey, you two related to the Wiggler by the main gate?
+Mario: The big caterpillar? It was chasing me and this was the only place I could go.
+Police Toad: Sure. We’ll prove it later.
+
+Police Toad 2: *locks the jail cell door* Alright, you two shouldn’t be here long. Sorry about this, we’ve been having intruders lately and want to be extra safe. The princess will be down here soon.
+Mario: Princess? There’s no king or queen?
+Police Toad 2: Nope.
+Luigi: That’s weird…
+
+(Later)
+Police Toad 2: Alright, the princess is here. Follow me to the call center. You two are Mario and Luigi, right?
+Mario: Yes.
+Police Toad 2: No last names? Weird…
+*The Toad brings the bros to a room with two chairs. There’s a table, and it’s separated by glass. On the other side of it is a girl that seems to be about their age*
+Princess: Hi, so I’m the princess of this kingdom, apparently you two—wait, wait, wait, are you humans?
+Mario: Yeah…why?
+Princess: Really?! I was the only human here, besides some of the Rulers, but otherwise, it was just all Toads and Yoshis, but now you’re here! Okay, okay, I’m getting distracted. I’m the princess and all that stuff, but, anyways, the police put you in jail for a bit since there’s been some stuff happening. There’s usually a bad guy around here, called Bowser. But recently, he’s disappeared. Now, there’s two guys that keep trying to rob the bank, called Wario and Waluigi. Wait, are you two related?
+Mario: No, no, we’ve never even heard of them.
+*Luigi nods in agreement*
+Princess: Okay. Well, anyways, I’m just here right now to get you guys up to date and make sure you’re not a threat. For the night, you can stay at the Mushroom Hotel. There’s also a shop nearby, if you need that.
+Mario: Okay, great, thanks. Also, did we get your name?
+Princess: Oh, yeah. It’s Peach, Princess Peach. Tomorrow morning, you two can come up to the castle, and we’ll have a meeting. Just ask the guards, they’ll now. Bye!
+Mario: Bye! 
+*The Police Toad leads them out*
+Police Toad 2: Well, it looks like you two are headed towards the hotel. It’s a bit of a far walk, so you can rent a kart here. You should take this two person one. Oh, and don’t tell any one, but here’s some coins, since you’re new here.
+Mario: Okay, thanks.
+Luigi: This kart is nice!
+Mario: Let’s go.
+
+*At the hotel, they get up to their room*
+Mario: Alright. Tonight was crazy, wasn’t it?
+Luigi: Yeah, it was. Goodnight, Mario.
+Mario: Night, Luigi. *turns off lamp*
+
+Part 3
+*Sunlight streams through the window into the hotel room. Mario’s still asleep, while Luigi has already gotten up and just realized that their family is probably worried about their disappearance*
+Luigi: Oh no! 
+Mario: wwwwhat…
+Luigi: Everybody must we worried about our disappearance!!
+Mario: mmhmmm…
+Luigi: Mario!
+Mario: …
+
+Mario: *locks door* These new key cards are cool.
+Luigi: Are we sure we got everything?
+Mario: Yeah, we just have the bag and the gold coins.
+Luigi: We didn’t even brush!
+Mario: It’s fine. Right now, we need to get breakfast.
+
+*after they have breakfast, they start heading up through town and to the castle*
+Luigi: Do you think we should get some supplies?
+Mario: Nah, I don’t think we’ll be in this world for too long. We have a meeting to go to anyways.
+
+*At the castle doors*
+Blue Toad Guard: Not so fast, you two. 
+Mario: We’re here to see the princess.
+*Both of the guards look at each other, knowingly*
+Yellow Toad Guard: ...But our princess is in another castle.
+*The Toads fist bump*
+Mario: Okay, well. We’re Mario and Luigi.
+Blue Toad: Ohhh, you two. Come on in, go down the hall and the 3rd door on the left. You hit a staircase, you’ve gone too far.
+Mario: Okay.
+
+*in the castle*
+Mario: I think this is the door.
+*He knocks on it, and it immediately opens to a Toad*
+Toad: Mario and Luigi?
+Mario: Yes.
+Toad: Come on in.
+*the Toad shuts the door behind them, startling Luigi a bit. They walk through a short hallway until it opens up to a big room. There’s a table in the middle, with 4 people (and a caterpillar) at it, one of which is Princess Peach. There’s a staircase with a throne, and on the same level are balconies with Toads. There’s also chairs on the same level as the table, with some important looking Toads*
+Peach: Oh, you two made it!
+Rosalina: (to Daisy) Good. If I came all the way down here just for them to not show up…
+Peach: You can sit down there. *points to two chairs* Alright, so as you probably already know, this world is inhabited by Toads, Yoshis, and Shy Guys. And obviously your guys’ arrivals are a big deal. So I’ve gathered the 6 Kingdom Rulers here. There’s obviously me of the Mushroom District, Princess Daisy of Sarasaland, the Watcher of the Stars, Rosalina, the to-be mayor of New Donk City, Pauline, and Prince Florian of the Flower Kingdom.
+Mario: There’s only 5 of you, though…
+Peach: The 6th is Bowser, but he left. Probably because of land or something…
+Daisy: The one good part of owning a giant desert.
+Mario: Wait, so there’s no adults here? It’s all just ruled by you all?
+Peach: Yeah, pretty much.
+Mario: Cool. That’s not the case in our world…
+Luigi: Speaking of which, our parents are probably worried sick about us! It’s already…noon!!
+Peach: Before you go, does anyone know about the pipe in the Wilds to get here? Your end of the world, I mean. 
+*just then, a Toad bursts through the door*
+News Toad: Princess Peach! We have some news on Bowser’s disappearance! It seems that he’s looking for a friend? And, we’re not sure yet, but he may also be looking at something more long term, if you know what I mean.
+Peach: Umm…yeah. Okay. Thanks. Back to you two, that question, and try to come back. How did you get here anyways?
+Mario: Well, it’s a long story. We were walking home from school, and I remembered this old boon about a Mushroom land. So I dug it out, made a plan, and we snuck out to find it. It turns out it was just in the sewers, a big green pipe, which is unusual. For us. And the ride there…wasn’t the best.
+Peach: Is that why your arm is broken, Luigi?
+Luigi: No, funny story, I was actually flinged…flung into the city, and landed in a pillow factory. But my arm broke. And Mario was being chased by a…Wiggler.
+Mario: Oh, the Wiggler. Did they ever get that out?
+Peach: Yeah, they put it back deeper into the forest. Luckily, we have a professional Wiggler veterinarian. That’s actually the largest known Wiggler in the world.
+Mario: And I accidentally hurt it…
+Peach: Don’t worry, it gets angry really easily.
+Daisy: I would know…
+Luigi: I guess we’ve both been in accidents…
+Daisy: Yeah…
+Luigi: Well, we should probably get going…
+Mario: Yeah. It was crazy finding about this whole world. Hopefully we can see you soon!
+Peach: Good luck!
+Mario: Thanks!
+*Luigi and Daisy wave as the bros walk out the door*
+Luigi: We need to get back home fast! Let’s rent a kart!
+Mario: Look, this says ‘Leave the kart anywhere with your money, and we’ll pick it up’. Great! 
+
+Luigi: *on the back of the kart, holding on for dear life with his only good arm* MARIO! SLOW DOWN!
+*Mario slams on the brakes right in front of the pipe*
+Mario: Here we are. Let’s go home, Luigi.
+*Luigi hyperventilating on a nearby rock from the ride*
+Luigi: Wait...I…hold…on…
+
+*At the other end of the pipe, back in Brooklyn*
+Mario: And home.
+*they go back up to the surface. It’s right at the start of sunrise. The only sounds are droplets falling off of buildings and the siren from the police car, which caught the speeding car*
+Mario: Wait, it’s morning?
+Luigi: Does time move faster there?
+Mario: I think so. Let’s sneak back inside before anyone wakes up.
+
+*Mario wakes up. Luigi’s not there, so Mario thinks he’s gone downstairs already. He gets up and heads downstairs*
+Luigi: …and then we went to a whole meeting thing with all the princesses of the world, they’re about our age. 
+Mom: Are you sure this wasn’t a dream, Luigi? Good morning, Mario.
+Luigi: No, it actually happened. Right Mario?
+Mario: Yeah. It’s a pipe in the sewers.
+Mom: Well, okay. Make sure you eat your breakfast, the bus comes in 25 minutes.
+Mario: Aww…we still have school.
+Luigi: But it’s Friday!
+
+Part 4
+*Mario’s in school, currently in history class. He’s dreading the next class, since math is next, and they have a test. That and the Mushroom Kingdom is all he can think about*
+
+*at lunch, Mario meets Luigi in their normal seating spots*
+Mario: Hey…
+Luigi: Hi, Mario. 
+Mario: How do you always get your lunch first?
+Luigi: My class leaves early and I’m always at the front of the line.
+Mario: Wait, what happened to the cast?
+Luigi: It’s rig—huh? 
+Mario: Maybe it’s only in the Mushroom Kingdom? 
+Luigi: Yeah, my arm feels fine. What if it really was a dream, one of those weird shared ones?
+Mario: I’m not sure…
+Luigi: Well I’m going to go to the library to study for the history test on Monday, let’s go.
+Mario: I didn’t even start eating yet!
+
+*Luigi’s finding a history book while Mario uses the school computer to look up the Mushroom Kingdom*
+Mario: The only results are for the book. So weird…
+Spike: Ha, you’re still reading the book? What a baby!
+Mario: Oh shut up. What are you even doing at the library?
+Spike: I-uh…well, I—
+Mario: Yeah, you don’t have an answer. That’s what I thought. 
+*Everyone looks up. Nobody’s ever tried to stand up to Spike before*
+Mario: How about you go use all your bully energy to do something else for a change? Like cafeteria duty or something? Imagine all you do is just go around to be rude to people all day? Is that the kind of person you want to be? Is that what you want to be seen as?!
+Spike: …Shut up. *kicks Mario’s chair and storms out*
+Mario: Exactly.
+*everyone cheers for Mario, until the librarian shushes them again*
+Luigi: *coming out from behind a bookshelf* Ah, History of the Early Computer: The 1800s and Earlier.
+Mario: Really? That’s what you guys are learning?
+Luigi: Ancient computers, it’s actually pretty cool.
+
+*on the way home*
+Mario: We should go down there again. 
+Luigi: *making sure to hold onto his hat extra tight* Mario, maybe you should just leave this thing for a bit. 
+Mario: Like you weren’t interested in it.
+Luigi: Not anymore! Just because you want to go down there doesn’t mean you can drag me there too! I’m pretty sure I broke my arm! What if it’s all a dream?
+Mario: And it’s fine now! 
+Luigi: Which further proves my point!
+Mario: No…I’m going down there then. Follow me if you want. 
+
+*at home*
+Mario: Hey, Ma, we’re home. I’m going to the park. 
+Mom: Okay, have fun!
+Mario: *to himself* Have fun? Nobody goes to the park for fun anymore.
+
+*Mario heads down to the sewer, and finds the green pipe*
+Mario: Luigi, if you’re here, I’m about to go in the pipe.
+*no response*
+Captain Toad: Are you Mario?
+*Mario jumps*
+Mario: AH! … Yeah…
+Captain Toad: Sorry about the scare. My team and I are here to investigate your world. How do we get out of here?
+Mario: Just head up the stairs, on the balcony, and head up the ladder. And the manhole cover is heavy. 
+Captain Toad: Okay, thanks! Where’s Luigi?
+Mario: Home. Doesn’t want to come.
+Captain: Okay. We should be on our way now, goodbye!
+Mario: Bye. *enters the pipe*
+
+*outside of the pipe, there’s now a track going into the city, and a cart on Mario’s side. In it, is a note that reads ‘Mario and Luigi: Use this kart to get into town. -Peach’*
+Mario: Okay. *he gets in the kart, and it takes off*
+
+*Mario passes the giant Wiggler, slightly startled by it. The kingdom gate, now with a big door, comes up on the horizon. It automatically opens as Mario comes up, then the cart comes to a stop. It ejects Mario by pushing the floor up with a spring-loaded mechanism*
+Mario: Ow! 
+Peach: Hi!
+Mario: AH!
+Peach: Sorry! And sorry about the cart. I don’t know why the Toads put that spring thing in. Need a hand?
+Mario: Yeah. Thanks.
+Peach: I had a feeling you’d come back. Also, where’s Luigi?
+Mario: Back in my world. And a weird thing, time seems to move slower here. And Luigi’s cast disappeared when we got back.
+Peach: Huh. Well we sent the Treasure Trackers out to explore your world, did you meet them?
+Mario: Yeah, right at the pipe, actually.
+Peach: Good. Well, should we go on a tour of the kingdom?
+Mario: Sure.
+
+*they get a kart, and start going around the kingdom. One of the stops is for them to get Mario a license and bank account*
+Toad: And there’s your account. Would you like to transfer any coins?
+Mario: No, thanks.
+*just then, two guys barge in. Ones wearing yellow, and the others wearing purple and is unusually tall. They’re Wario and Waluigi*
+Police: Stop right there. Nice try, again. 
+Wario: No, but we’re actually trying to get money out!
+Police: Excuses. 
+Waluigi: Really! We’re broke!
+Mario: Isn’t it weird how close their names are to me and Luigi’s?
+Peach: Yeah…
+*they finish the tour and eventually get to the Fire Flower Field. It’s night, and they’re laying in the grass*
+Peach: And you can see the Comet Observatory! 
+Mario: Cool. You know, it’s nice having someone to talk to about this place. None of my family, not even Luigi. At school, the bully tried to…well, bully me about this. It’s just…exhausting.
+Peach: You guys still have school?
+Mario: Yeah..? It goes up to being an adult.
+Peach: Huh. It’s way different here. There’s only 8 grades.
+Mario: It’s weird how similar but different our worlds are.
+Peach: Yup.
+Mario: Honestly, you’d be the first friend I had. Me and Luigi were always together. Even though we’ve been together for all our lives, it’s nice to have another friend. 
+Peach: …it was kind of the same. I did have a few very close Toads, and the Rulers, of course. But you’re the first human in a while!
+Mario: Thanks. Well, I should probably get going now.
+Peach: Okay. Bye!
+Mario: Bye!
+*Mario kept coming down to the Mushroom Kingdom, and with each visit, the two got closer*
+
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        // --- Theme Toggle Logic ---
+        const themeBtn = document.getElementById('themeBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        // Check system preference
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        // Function to set theme
+        function setTheme(isDark) {
+            if (isDark) {
+                document.body.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>'; // Sun icon
+            } else {
+                document.body.setAttribute('data-theme', 'light');
+                themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>'; // Moon icon
+            }
+        }
+
+        // Initialize based on saved preference or system default
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark") {
+            setTheme(true);
+        } else if (currentTheme == "light") {
+            setTheme(false);
+        } else {
+            setTheme(prefersDarkScheme.matches);
+        }
+
+        // Toggle on button click
+        themeBtn.addEventListener("click", () => {
+            let isDark = document.body.getAttribute('data-theme') === 'dark';
+            setTheme(!isDark);
+            localStorage.setItem("theme", !isDark ? "dark" : "light");
+        });
+    </script>
+</body>
+</html>
