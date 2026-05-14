@@ -193,6 +193,8 @@ body {
 
 /* Story Text Styling */
 .story {
+    text-align: left;
+    
     white-space: pre-line;
 
     font-family: var(--font-main);
