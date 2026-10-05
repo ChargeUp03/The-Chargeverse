@@ -206,3 +206,37 @@ body {
     padding: 1.5rem;
     border-radius: 10px;
 }
+
+/* --- Notice Banner --- */
+.notice {
+    max-width: 900px;
+    margin: 1rem auto 0;
+    padding: 1.2rem 1.5rem;
+    text-align: left;
+
+    font-family: var(--font-main);
+    color: var(--panel-text);
+    background: var(--panel-bg);
+    border: 1px solid var(--btn-border);
+    border-left: 6px solid #E52521; /* Mario Red accent, visible in both themes */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.notice h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.notice p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Keep it from touching the screen edges on narrow screens */
+@media (max-width: 960px) {
+    .notice {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
